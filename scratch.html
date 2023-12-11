@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/scratchstyles.css">
+    <title>Chess Page</title>
+</head>
+
+    <header>
+        <h1>My Chess Page</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Professional Resume Page</a></li>
+                <li><a href="#openings-section">Openings Section</a></li>
+                <li><a href="#tableau-section">Chess Graph</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="openings-section">
+        <h2>My Openings</h2>
+        <p>Here are some openings I like to play:</p>
+
+        <ol>
+            <li>White Openings</li>
+            <ul>
+                <li>The London System</li>
+                <li>Fried Liver Attack</li>
+                <li>The Italian Game</li>
+            </ul>
+            <li>Black Openings</li>
+            <ul>
+                <li>Caro Kann</li>
+                <li>The French Defense</li>
+            </ul>
+        </ol>
+       
+        <p>For more information on openings, <a href="#tableau-section">jump to the graph</a>.</p>
+       <h3>The Best Chess Player in the World (Magnus Carlsen)</h3>
+        <img src="https://i.guim.co.uk/img/media/699cce4914b90ae0ba89787178bc48314d50eb89/0_84_5081_3223/master/5081.jpg?width=465&dpr=1&s=none" alt="Magnus Carlsen">
+        <h3>How to play the Caro-Kann</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0p_881Nwoo4?si=yvGAQ0aTlqiOmlP5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <style>
+        .tableauPlaceholder {
+            width: 100%;
+            position: relative;
+        }
+
+        .tableauViz {
+            width: 100%;
+            display: none;
+        }
+    </style>
+    <section id="tableau-section">
+        <h2>Chart of Most Effective Openings</h2>
+        <div class='tableauPlaceholder' id='viz1702319518569'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Dashboard 1' src='https://public.tableau.com/static/images/Ch/ChessOpenings_15826655703000/Dashboard1/1_rss.png' style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='ChessOpenings_15826655703000&#47;Dashboard1' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/Ch/ChessOpenings_15826655703000/Dashboard1/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1702319518569');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            if (divElement.offsetWidth > 800) {
+                vizElement.style.width = '100%';
+                vizElement.style.height = '1338px';
+            } else if (divElement.offsetWidth > 500) {
+                vizElement.style.width = '100%';
+                vizElement.style.height = '1000px';
+            } else {
+                vizElement.style.width = '100%';
+                vizElement.style.height = '975px';
+            }
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+
+    <footer>
+        <p>&copy; 2023 Chess Page</p>
+    </footer>
+
+</body>
+</html>
